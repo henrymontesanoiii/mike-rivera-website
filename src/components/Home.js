@@ -19,14 +19,14 @@ import FadeIn from 'react-fade-in';
       <Container>
         <FadeIn>
           <Col>
-            <h1><strong>Prepare for the future, by planning today.</strong></h1>
+            <h1><strong>Prepare for the future by planning today.</strong></h1>
             <Tabs
               defaultActiveKey="profile"
               id="uncontrolled-tab-example"
               className="mb-3"
             >
               <Tab eventKey="1" title="Personal and Business Taxes">
-                With over a dozen years of accounting experience, Mike Rivera CPA is prepared to provide you with financial freedom. Tax preparation and planning services are offered for any and all types of tax. Whether it be your individual return, partnership, corporation, estate, trust or other.
+                With over fifteen years of accounting experience, Mike Rivera CPA is prepared to provide you with financial freedom. Tax preparation and planning services are offered for both businesses and individuals. Tax preperation services are available for any type of entity.
               </Tab>
               <Tab eventKey="2" title="Why do I need a CPA?">
                 Title 26 of the United States Code, which governs federal taxes, has almost 10,000 sections. That does not even include the state tax code. CPAs have rigorous licensing requirements, culminating with four separate exams which must be passed within a year and a half of each other. Some of those exams have passage rates lower than 40%. Even after certification, CPAs are required to take continuing education credits to remain up to date with tax reform. All of this means that a CPA has the knowledge and ability to apply the rules to your unique situation. They are licensed experts that are held to a higher standard and must uphold a certain standard to the public.

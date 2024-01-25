@@ -14,6 +14,7 @@ import Col from 'react-bootstrap/Col';
 import { useState } from "react";
 import FadeIn from 'react-fade-in';
 import insta from "./images/insta.png";
+import './App.css'
 
 
 
@@ -24,8 +25,8 @@ function App() {
   const startNow = startbutton => {setActive("Contact")}
 
   return (
-    <div>
-      <Navbar expand="lg" className="bg-body-tertiary">
+    <div >
+      <Navbar  className="bg-body-tertiary">
         <Container fluid>
 
           <Navbar.Brand onClick={() => setActive("Home")}>
@@ -62,10 +63,7 @@ function App() {
                 <NavDropdown.Item href="https://www.tax.ny.gov/" target="_blank">
                   NY Department of Taxation and Finance
                 </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action5">
-                  Something else here
-                </NavDropdown.Item>
+                
               </NavDropdown>
               <Nav.Link onClick={() => setActive("Contact")}>Contact</Nav.Link>
             </Nav>
