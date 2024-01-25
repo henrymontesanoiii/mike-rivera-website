@@ -1,6 +1,6 @@
 {
-  "name": "mike-rivera-website",
-  "homepage": "https://github.com/henrymontesanoiii/mike-rivera-website/",
+  "name": "mikeriveracpa.github.io",
+  "homepage": "https://mikeriveracpa.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -36,7 +36,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "touch ./output_folder/.nojekyll && gh-pages -b main -d build -t true"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": [
