@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mikeriveracpa/static/css/main.b4535eeb.css",
+    "main.css": "/mikeriveracpa/static/css/main.68aedb43.css",
     "main.js": "/mikeriveracpa/static/js/main.e6db09a2.js",
     "static/js/787.667d7f29.chunk.js": "/mikeriveracpa/static/js/787.667d7f29.chunk.js",
     "static/media/free.png": "/mikeriveracpa/static/media/free.237e73c12fb91a5c4fe5.png",
@@ -9,12 +9,12 @@
     "static/media/insta.png": "/mikeriveracpa/static/media/insta.f17dfc7783ea8b3bb5f7.png",
     "static/media/mrh.png": "/mikeriveracpa/static/media/mrh.f56c24d89b79d3e78328.png",
     "index.html": "/mikeriveracpa/index.html",
-    "main.b4535eeb.css.map": "/mikeriveracpa/static/css/main.b4535eeb.css.map",
+    "main.68aedb43.css.map": "/mikeriveracpa/static/css/main.68aedb43.css.map",
     "main.e6db09a2.js.map": "/mikeriveracpa/static/js/main.e6db09a2.js.map",
     "787.667d7f29.chunk.js.map": "/mikeriveracpa/static/js/787.667d7f29.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4535eeb.css",
+    "static/css/main.68aedb43.css",
     "static/js/main.e6db09a2.js"
   ]
 }
