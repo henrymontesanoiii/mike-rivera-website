@@ -6,7 +6,7 @@ import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import Button from 'react-bootstrap/Button';
 import FadeIn from 'react-fade-in';
-
+import './Home.css';
 
 
  const Home =({startNow}) => {
