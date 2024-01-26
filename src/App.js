@@ -26,10 +26,9 @@ function App() {
 
   return (
     <div >
-      <Navbar  className="bg-body-tertiary">
-        <Container fluid>
-
-          <Navbar.Brand onClick={() => setActive("Home")}>
+      <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
+      <Container>
+      <Navbar.Brand onClick={() => setActive("Home")}>
             <img
               src={icon}
               width="200"
@@ -40,17 +39,12 @@ function App() {
             width="30"
             alt="insta"
           /></a></Navbar.Brand>
-            
-
-          <Navbar.Toggle aria-controls="navbarScroll" />
-          <Navbar.Collapse id="navbarScroll" class="align-items-end">
-            <Nav
-              className="me-auto my-2 my-lg-0"
-              style={{ maxHeight: '100px' }}
-              navbarScroll
-            >
-              <div></div>
-              <Nav.Link onClick={() => setActive("Home")}>Home</Nav.Link>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="me-auto">
+          </Nav>
+          <Nav>
+          <Nav.Link onClick={() => setActive("Home")}>Home</Nav.Link>
               <Nav.Link onClick={() => setActive("Team")}>Team</Nav.Link>
               <NavDropdown title="Resources" id="navbarScrollingDropdown" drop={'start'}>
                 <NavDropdown.Item href="https://accounts.intuit.com/app/sign-in?app_group=ProConnectTaxOnline&asset_alias=Intuit.tax.shoebox.browser&redirect_uri=https%3A%2F%2Flink.intuit.com%2Faccountant%2Fhome%2F#%2Fclients/" target="_blank">Intuit Portal</NavDropdown.Item>
@@ -63,14 +57,13 @@ function App() {
                 <NavDropdown.Item href="https://www.tax.ny.gov/" target="_blank">
                   NY Department of Taxation and Finance
                 </NavDropdown.Item>
-                
               </NavDropdown>
               <Nav.Link onClick={() => setActive("Contact")}>Contact</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-
-        </Container>
-      </Navbar>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+      
       <br></br>
       <FadeIn>
         <Container>
