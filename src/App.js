@@ -79,7 +79,7 @@ function App() {
             <Col>
               <img
                 src={testport}
-                max width="90%"
+                max width="100%"
                 
                 height="auto"
                 alt="Logo"

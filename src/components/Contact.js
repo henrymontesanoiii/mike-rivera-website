@@ -5,7 +5,9 @@ import Form from 'react-bootstrap/Form';
 import FadeIn from 'react-fade-in';
 import { useState } from 'react';
 import Modal from 'react-bootstrap/Modal'
-
+import './Contact.css';
+import Container from 'react-bootstrap/Container';
+import Col from 'react-bootstrap/Col';
 
 
 
@@ -54,7 +56,9 @@ import Modal from 'react-bootstrap/Modal'
   };
 
   return (
+    <Container>
     <FadeIn>
+      <Col >
       <br></br>
       <center><h1><strong>Contact Us!</strong></h1></center>
       <form ref={form} onSubmit={checkValues}>
@@ -92,13 +96,15 @@ import Modal from 'react-bootstrap/Modal'
         </Form.Text>
       </Form.Group>
 
-      <textarea name="message" id = "message" rows={8} cols={90}/>
+      <textarea name="message" id = "message" rows={10}/>
       <br></br>
       <center><Button type="submit" value="Send">
         Submit
       </Button></center>
       </form>
+      </Col>
     </FadeIn>
+    </Container>
   );
 }
 
