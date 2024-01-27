@@ -34,7 +34,7 @@ import './Home.css';
             </Tabs>
             <br></br>
             <div id="free">
-              <img src={free} alt="free" width="600" style={{ opacity: 0.4 }} />
+              <img src={free} alt="free" width="500" style={{ opacity: 0.4 }} />
               <div id="cons">
                 <center><h1><strong>Free Consultation</strong></h1>
                   <h4>See what Mike Rivera CPA can do for you.<br></br><br></br>

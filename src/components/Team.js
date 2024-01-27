@@ -14,12 +14,12 @@ class Team extends React.Component {
           <br></br>
           <h5>
             <strong>Mike Rivera, CPA</strong> is the managing member of Mike Rivera CPA. He has more than fifteen years experience in accounting. Mike Rivera graduated from Rowan University in 2009 and has since worked in commercial and residential real estate accounting and prepared tax returns part time. In 2018, he decided to shift his focus entirely to providing tax and other accounting services. He has his Master's from Excel University, Inc. and offers consulting services catered to individual and business needs as it relates to Microsoft Excel.</h5>
-          <img
+          <center><img
             src={banner}
-            width="500"
+            max width="500"
 
             alt="Logo"
-          />
+          /></center>
         </Col>
       </FadeIn>
     )

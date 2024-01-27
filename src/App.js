@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div >
-      <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
+      <Navbar collapseOnSelect expand="sm" className="bg-body-tertiary">
       <Container>
       <Navbar.Brand onClick={() => setActive("Home")}>
             <img
@@ -40,10 +40,10 @@ function App() {
             alt="insta"
           /></a></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
+        <center><Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="ms-auto">
           </Nav>
-          <Nav>
+          <Nav >
           <Nav.Link onClick={() => setActive("Home")}>Home</Nav.Link>
               <Nav.Link onClick={() => setActive("Team")}>Team</Nav.Link>
               <NavDropdown title="Resources" id="navbarScrollingDropdown" drop={'start'}>
@@ -61,6 +61,7 @@ function App() {
               <Nav.Link onClick={() => setActive("Contact")}>Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
+        </center>
       </Container>
     </Navbar>
       
@@ -78,8 +79,9 @@ function App() {
             <Col>
               <img
                 src={testport}
-                width="600"
-                height="600"
+                max width="90%"
+                
+                height="auto"
                 alt="Logo"
               />
             </Col>
