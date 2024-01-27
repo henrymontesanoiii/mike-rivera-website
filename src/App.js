@@ -67,16 +67,17 @@ function App() {
       
       <br></br>
       <FadeIn>
-        <Container>
+          
+          <Container>
           <Row >
-            <Col>
+            <Col lg={6} >
               {active === "Home" && <Home startNow={startNow}/>}
               {active === "Team" && <Team />}
               {active === "Contact" && <Contact />}
               
             </Col>
-
-            <Col>
+            
+            <Col >
               <img
                 src={testport}
                 max width="100%"
@@ -85,8 +86,9 @@ function App() {
                 alt="Logo"
               />
             </Col>
-          </Row>
+            </Row>
         </Container>
+       
       </FadeIn>
     </div>
 

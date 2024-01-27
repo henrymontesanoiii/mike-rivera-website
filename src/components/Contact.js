@@ -56,9 +56,9 @@ import Col from 'react-bootstrap/Col';
   };
 
   return (
-    <Container>
+    
     <FadeIn>
-      <Col >
+      
       <br></br>
       <center><h1><strong>Contact Us!</strong></h1></center>
       <form ref={form} onSubmit={checkValues}>
@@ -102,9 +102,9 @@ import Col from 'react-bootstrap/Col';
         Submit
       </Button></center>
       </form>
-      </Col>
+     
     </FadeIn>
-    </Container>
+ 
   );
 }
 

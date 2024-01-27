@@ -2,6 +2,7 @@ import React from 'react';
 import Col from 'react-bootstrap/Col';
 import banner from "../images/banner.png"
 import FadeIn from 'react-fade-in';
+import Container from 'react-bootstrap/Container';
 
 class Team extends React.Component {
   render() {
