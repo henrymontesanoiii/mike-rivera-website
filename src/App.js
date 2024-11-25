@@ -2,7 +2,7 @@ import React from "react";
 import Home from "./components/Home";
 import Team from "./components/Team";
 import Contact from "./components/Contact";
-import testport from "./images/testport.png"
+import mikev2 from "./images/mikev2.png"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -79,8 +79,8 @@ function App() {
             
             <Col >
               <img
-                src={testport}
-                max width="100%"
+                src={mikev2}
+                max width="90%"
                 
                 height="auto"
                 alt="Logo"
