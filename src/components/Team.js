@@ -9,7 +9,7 @@ class Team extends React.Component {
     return (
       <div>
       <FadeIn>
-        <Col>
+        <Col >
           <center><h1><strong>About Me</strong></h1></center>
           <br></br>
           <h5><strong>Mike Rivera CPA</strong> is a small accounting firm run by its owner based out of Chatham, NJ. He provides a wide array of accounting, financial, tax and excel services to individuals, small businesses and not for profits.</h5>

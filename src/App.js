@@ -16,10 +16,6 @@ import FadeIn from 'react-fade-in';
 import insta from "./images/insta.png";
 import './App.css'
 
-
-
-
-
 function App() {
   const [active, setActive] = useState("Home")
   const startNow = startbutton => {setActive("Contact")}
